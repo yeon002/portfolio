@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	/* vertical-align: top; */
+	border: none;
+	max-width: 100%;
+	vertical-align: middle;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+article, aside, body, button, dd, dialog, div, dl, dt, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, input, legend, li, main, nav, ol, p, pre, section, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
